@@ -19,6 +19,8 @@ class ViewController: UIViewController {
         let width:CGFloat=self.svMain.frame.size.width
         let currentPage=round(self.svMain.contentOffset.x + (0.5 * width)) / width
         print("current pge is--->:\(Int(currentPage))")
+        
+        print("Hello")
         // Do any additional setup after loading the view, typically from a nib.
     }
 
